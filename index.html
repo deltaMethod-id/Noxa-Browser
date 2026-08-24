@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noxa Browser</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-home">
+  <div class="corner-actions">
+    <button class="tab-link" type="button" data-action="open-tabs">🗂️ Tab <span class="tab-count" id="tabCount">0</span></button>
+  </div>
+
+  <main class="home-view">
+    <div class="logo"><span>N</span><span>o</span><span>x</span><span>a</span> <span class="browser-text">Browser</span></div>
+    <form class="search-container" id="homeForm" autocomplete="off">
+      <div class="search-box-wrapper">
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        <input id="mainInput" class="search-box" autofocus placeholder="Cari secara real-time atau masukkan URL...">
+      </div>
+      <div class="buttons"><button class="btn" type="submit">Noxa Search</button></div>
+    </form>
+  </main>
+
+  <script src="js/common.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
